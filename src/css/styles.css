@@ -11,10 +11,46 @@ body {
   color: #212121;
   line-height: 1.5;
 }
+img {
+  min-width: 40px;
+}
 
 #search-box {
   font: inherit;
   padding: 8px;
   max-width: 320px;
   margin-bottom: 16px;
+}
+.card-wrap {
+  display: flex;
+  align-items: baseline;
+}
+
+.titleCountry {
+  margin-top: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+  margin-left: 10px;
+}
+
+.titleCountry {
+  font-size: 50px;
+}
+.text-info {
+  font-weight: bold;
+}
+
+.Country-item {
+  display: flex;
+  margin-bottom: 15px;
+  list-style: none;
+}
+
+.item-text {
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-right: 0;
+  margin-left: 15px;
+  font-weight: 50px;
+  font-size: 25px;
 }
